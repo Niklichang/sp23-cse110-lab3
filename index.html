@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSE 110 First Brainstorm</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+  <body>
+     
+      <header>
+        <nav>
+            <ul>
+                <li><a href="#notes">Posted Slides</a></li>
+                <li><a href="#footer">End of Page</a></li>
+                
+            </ul>
+        </nav>
+        <h1>
+            General Meeting
+        </h1>
+        <h2>
+            4/12/23
+        </h2>
+      </header>
+      <main>
+          <section>
+            <h3>
+                Attendance List:
+            </h3>
+            <ol>
+                <li>
+                    Niklas Chang
+                </li>
+                <li>
+                    You
+                </li>
+                <li>
+                    Him
+                </li>
+                <li>
+                    Her
+                </li>
+            </ol>
+          </section>
+          <section>
+            <h3>
+                Agenda
+            </h3>
+            <ul>
+                <li>Coffee Time</li>
+                <li>Introductions and Greetings</li>
+                <li>Outline Roles and Tasks</li>
+                <li>Fun activity at the end!</li>
+            </ul>
+          </section>
+          <section>
+            <h3>
+                Unfinished
+            </h3>
+            <ul>
+                <li>Prerequisite reading</li>
+                <li>Know everyone's names</li>
+            </ul>
+          </section>
+          <section>
+            <h3>
+                To Do
+            </h3>
+            <ul>
+                <li>Decide <strong>team roles</strong></li>
+                <li>Set up the <strong>kanban board</strong></li>
+                <li>Brainstorm future tasks</li>
+                <li><b>Android Studio</b> (<i>development environment</i>): getting to know it</li>
+            </ul>
+          </section>
+          <section>
+            <h3>
+                Misc
+            </h3>
+            <p>
+                Niklas brought up the problem that mac users have since the main app will be on an android device. Delegated accordingly, <em>will</em> move people around as needed, so no complaining.
+                <br>
+                <br>
+                Will start implementing consequences for attendence in future meetings.
+            </p>
+          </section>
+
+          <section>
+            <div id="notes">
+                <h3>
+                    Presented Images
+                </h3>
+                <img 
+                src="images/android.jpeg"
+                alt="Elon Musk's Android Robot"
+                style="width:500px;height:350px;">
+                <img
+                src="images/studio.jpeg"
+                alt="A Studio"
+                style="width:500px;height:350px;">
+            </div>
+          </section>
+          <section>
+            <h3>
+                Recording
+            </h3>
+            
+            <video width="320" height="240" controls>
+                <source src="/video/meeting.mp4" type="video/mp4">
+            Your browswer does not support the video tag. Sorry!
+            </video>
+
+            <details>
+                <summary>Meeting Details</summary>
+
+                <figure>
+                    <figcaption>Audio recording:</figcaption>
+                    <audio controls src="/audio/audio.m4a">
+                    <a href="/audio/audio.m4a">
+                    </a>
+                    Download audio</audio>
+
+                
+                </figure>
+                Transcript: 
+                Hello, this is the CSE 110 First Brainstorm meeting. Today we are going to go over team roles, our to do list and what we actually want to do, and finally give some offline reading for the environment we are going to use, android studio. Thank you everyone for coming, end of test meeting.
+            </details>
+          </section>
+      </main>
+      <footer>
+          <section>
+              <div id="footer">
+                <h2>
+                    Form:
+                </h2>
+                <form>
+                    <label for="name-input">Name:</label>
+                    <input type="text" id="name-input" name="name" size="30">
+
+                    <fieldset>
+                        <legend>Languages you are familiar with:</legend>
+                        <div>
+                            <input type="checkbox" id="C" name="C" >
+                            <label for="C">C</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="C++" name="C++" >
+                            <label for="C++">C++</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Java" name="Java" >
+                            <label for="Java">Java</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Python" name="Python" >
+                            <label for="Python">Python</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> What type of computer do you have?</legend>
+                        <input type="radio" name="mac" id="computer_mac">
+                        <label for="computer_mac">Mac</label>
+                        <input type="radio" name="windows" id="computer_windows">
+                        <label for="computer_windows">Windows</label>
+                    </fieldset>
+                    
+                    <label for="role-choice">Choose a role:</label>
+                    <input list="roles" id="role-choice" name="role-choice">
+                    <datalist id="roles">
+                        <option value="Leader">
+                        <option value="Backend">
+                        <option value="Frontend">
+                    </datalist>
+
+                    <br>
+
+                    <label for="date-choice">Choose a preferred date for next meeting:</label>
+                    <input type="date" id="date-choice" name="next-meeting-date" min="2023-04-13" max="2023-04-19">
+
+                    <br>
+
+                    <label for="time-select">Choose your preferred meeting time:</label>
+                    <select name="times" id="time-select">
+                        <option value="">--Please choose a time--</option>
+                        <option value="morning">Morning</option>
+                        <option value="afternoon">Afternoon</option>
+                        <option value="evening">Evening</option>
+                    </select>
+                    
+
+                    <label for="questions">Any questions or concerns?</label>
+                    <br>
+                    <textarea id="questions" name="questions" rows="6" cols="35">
+                    </textarea>
+                    <br>
+                    <button type="button">
+                        Submit
+                    </button>
+                </form>
+              </div>
+          </section>
+      </footer>
+  </body>
+</html>
