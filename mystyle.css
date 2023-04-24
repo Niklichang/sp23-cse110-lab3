@@ -1,0 +1,105 @@
+
+
+/* class for orange colored text*/
+.orange-text {
+    color: #FFA500;
+    font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 5% 5% 5% 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+/* font size for the "presented images" text */
+#notes {
+    font-size: 0.8cm;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10%;
+    
+}
+
+/* universal relative positioning */
+* {
+    position: relative;
+}
+
+/* header1 selector changing color to red */
+h1 {
+    color: rgb(255,0,0);
+    margin: auto;
+    border-style: solid;
+    padding: 5% 3% 0% 0%;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    display: flex;
+    display: grid;
+    height: 100px;
+    width: 5in;
+    max-width: 10in;
+    min-width: 5in;
+}
+
+/* Links with "footer" anywhere in the URL */
+a[href*="footer"] {
+    background-color: silver;
+    font-size: 2ex;
+    display: inline;
+}
+
+/* Any button over which the user's pointer is hovering */
+button:hover {
+    background-color: lightblue;
+}
+
+/* when button is clicked */
+button:active {
+    color: blue;
+}
+
+/* change h3 and paragraphs to green color */
+h3, p {
+    color: hsl(150, 29%, 54%);
+
+}
+
+/* Descendent combinator making list bubbles circles */
+ul.agenda li {
+    list-style-type: circle;
+
+}
+
+/* Child combinator giving list contents larger margins*/
+ul.unfinished > li {
+    margin: 1.5em;
+}
+
+/* general sibling combinator to adjust image locations*/
+img ~ img {
+    position: absolute;
+    top: 0.75in;
+    left: 500px;
+}
+
+/* Adjacent sibling combinator to make list bold */
+h3 + ol {
+    font-weight: bold;
+    font-size: 2.5ch;
+}
+
+/* background of every ul of class name todo-list white */
+ul.todo-list {
+    background-color: white;
+}
+
+
+
+
+
+
+
