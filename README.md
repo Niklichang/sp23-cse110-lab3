@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-[Published Site](https://niklichang.github.io/Lab2_Starter/)
+https://niklichang.github.io/sp23-cse110-lab3/
